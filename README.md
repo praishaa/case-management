@@ -1,107 +1,54 @@
-# case-management
-This is a Full Stack Case / Task Management Web Application that enables users to:
+#  Case Management App
 
-->Register and login with Firebase Authentication
+A full-stack web application for managing cases and tasks with role-based access control, real-time data, and secure authentication.
 
-->View role-based dashboards (Admin / User)
+---
 
-->Create, update, delete, and manage cases
+##  Project Overview
 
-->Add and view comments on cases
+The Case Management App enables teams to create, track, and manage cases efficiently. It supports role-based dashboards for Admins and Users, with full CRUD operations, comments, filtering, and pagination.
 
-->Filter, search, and paginate case lists
+**Key capabilities:**
+- Register and log in with Firebase Authentication
+- Role-based dashboards (Admin / User)
+- Create, update, delete, and manage cases
+- Add and view comments on cases
+- Filter, search, and paginate case lists
+- Secure data storage with Firebase Firestore
 
-->Store and manage data securely with Firebase Firestore
+---
 
-The application showcases the following real-world usage of:
+##  Tech Stack
 
-->React.js
+### Frontend
+| Technology | Purpose |
+|---|---|
+| React.js | UI (Functional Components) |
+| Redux Toolkit | State management |
+| React Router DOM | Client-side routing |
+| Axios | HTTP requests |
+| CSS | Custom styling |
 
-->Redux Toolkit
+### Backend
+| Technology | Purpose |
+|---|---|
+| Node.js | Runtime environment |
+| Express.js | REST API framework |
+| Firebase Admin SDK | Server-side Firebase access |
 
-->Firebase Authentication
+### Database & Auth
+| Technology | Purpose |
+|---|---|
+| Firebase Firestore | NoSQL database |
+| Firebase Authentication | Email & password auth |
 
-->Firebase Firestore
+---
 
-->Node.js
-Tech Stack Frontend
+##  Setup Instructions
 
-->React.js (Functional Components)
 
-->Redux Toolkit
+### Prerequisites
+- Node.js (v16 or higher)
+- npm
+- A Firebase project
 
-->React Router DOM
-
-->Axios
-
-->CSS (Custom Styling)
-
-Backend
-
-->Node.js
-
-->Express.js
-
-->Firebase Admin SDK
-
-->REST APIs
-
-->Database
-
-->Firebase Firestore
-
-->Authentication
-
-->Firebase Email & Password Authentication
-
-Features Authentication
-
-->Email & Password Signup
-
-->Login
-
-->Role-based access (Admin / User)
-
-->Role stored in Firestore
-
-->Logout functionality
-
-Dashboard Displays:
-
-->Case Title
-
-->Description
-
-->Status (Open / In Progress / Closed)
-
-->Created By
-
-->Created Date
-
-Redux is used for:
-
-->Authentication state
-
-->Case list state
-
-Case Management Admin:
-
-->Create cases
-
-->Edit cases
-
-->Delete cases
-
-->Update status
-
-User:
-
-->View cases
-
-->Add comments
-
-->No delete access
-
-Express.js
-
-REST APIs
